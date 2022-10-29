@@ -12,3 +12,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
 # -Anythink-Market-c6car
+
+-Install Docker from the official Docker website https://docs.docker.com/get-docker/
+-Confirm Docker installation using docker -v to displat the version of installed docker.
+-If Docker is working correctly, the backend should be running and able to connect to your local database. This can be done by going to http://localhost:3000/api/ping on your browser.
+-Run docker-compose up from the root directory
+-Now, it’s time to check the frontend and make sure it’s connected to the backend. If everything is working properly, you’ll be able to create a new user on http://localhost:300
+
